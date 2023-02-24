@@ -133,7 +133,6 @@ dmypy.json
 
 # Pretrained neural network models
 Utils/pretrained_models/*
-Utils/yolov5
 Tensorboard
 Datasets/collected
 PAL/Plan/PDDL/Planners
