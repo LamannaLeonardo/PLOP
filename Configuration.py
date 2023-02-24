@@ -60,7 +60,7 @@ PRINT_CAMERA_VIEW_IMAGES = 0 and PRINT_IMAGES
 PRINT_CAMERA_DEPTH_VIEW_IMAGES = 0 and PRINT_IMAGES
 
 # Save top view images
-PRINT_TOP_VIEW_IMAGES = 0 and PRINT_IMAGES
+PRINT_TOP_VIEW_IMAGES = 1 and PRINT_IMAGES
 
 # Save top view images
 PRINT_TOP_VIEW_GRID_PLAN_IMAGES = 0 and PRINT_IMAGES
@@ -118,8 +118,7 @@ DIAGONAL_MOVE = False  # Allows the agent to move diagonally when navigating the
 ##########################################################
 ################# PREDICATE CLASSIFIERS ##################
 ##########################################################
-OBJ_DETECTOR_PATH = "Utils/yolov5/yolov5m_pretrained_besthyp.pt"
-OBJ_CLASSES_PATH = "Utils/pretrained_models/obj_classes_coco.pkl"
+OBJ_DETECTOR_PATH = "Utils/yolov5/yolov5m_pretrained.pt"
 
 
 ##########################################################

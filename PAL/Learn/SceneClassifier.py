@@ -9,10 +9,6 @@ class SceneClassifier:
     def __init__(self):
         self.scene_objects = None
 
-        # Set object classes
-        self.obj_classes = [obj_class.lower() for obj_class in pickle.load(open(Configuration.OBJ_CLASSES_PATH, "rb"))]
-
-
     def get_visible_predicates(self, visible_objects, rgb_img):
 
         visible_predicates = defaultdict(dict)
