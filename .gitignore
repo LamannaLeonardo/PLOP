@@ -138,7 +138,6 @@ Utils/yolov5/.github/
 Utils/yolov5/.gitignore
 
 # Pretrained neural network model
-Utils/pretrained_models/*
 Tensorboard
 Datasets/collected
 Results
