@@ -39,7 +39,7 @@ class Agent:
         vfov = np.rad2deg(vfov)
 
         # Initialize iTHOR simulator controller
-        self.controller = Controller(renderDepthImage=1,
+        self.controller = Controller(renderDepthImage=True,
                                      renderObjectImage=True,
                                      visibilityDistance=Configuration.VISIBILITY_DISTANCE,
                                      gridSize=Configuration.MOVE_STEP,
