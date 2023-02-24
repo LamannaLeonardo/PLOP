@@ -37,34 +37,12 @@ conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 -c pytorch
 pip install matplotlib scipy ipython pandas tqdm seaborn urllib3 requests
 ```
 
-7. Clone the yolov5 repository into the 'Utils' folder
-```
-cd PLOP/Utils && git clone https://github.com/ultralytics/yolov5.git 
-```
-
 8. Create the "pretrained_models" subdirectory into the "Utils" directory
 ```
 mkdir pretrained_models && cd pretrained_models
 ```
 
 9. Download the pretrained YoloV5 model available at this [link](https://drive.google.com/file/d/1eOJ3X6GG2_LAuzYgsHLUrVIvwclrDDta/view?usp=share_link), and move it into the directory "Utils/pretrained_models"
-
-
-10. Download the [FastForward](https://fai.cs.uni-saarland.de/hoffmann/ff.html) planner in the directory "PLOP/PAL/Plan/PDDL/Planners/FF". 
-
- Create the directory "PLOP/PAL/Plan/PDDL/Planners/FF"
- ```
- cd ../../PAL/Plan/PDDL && mkdir -p Planners/FF && cd Planners/FF
- ```
-
- From the [offical FastForward site](https://fai.cs.uni-saarland.de/hoffmann/ff.html), download FF-v2.3.tgz (you can directly download it from this [link](https://fai.cs.uni-saarland.de/hoffmann/ff/FF-v2.3.tgz)) into the "PLOP/PAL/Plan/PDDL/Planners/FF" directory, 
- ```
- wget https://fai.cs.uni-saarland.de/hoffmann/ff/FF-v2.3.tgz
- ```
-
- Extract the archive ```tar -xf FF-v2.3.tgz```, go into the installation directory with ```cd FF-v2.3``` and compile FastForward with ```make```. 
- 
- Finally move the "ff" executable in the parent directory through the command ```mv ff ../```, go to the parent directory ```cd ../``` and delete unnecessary files with ```rm -r FF-v2.3 & rm FF-v2.3.tgz```.
 
 
 10. Check everything is correctly installed by running the "main.py" in the "PLOP" directory
@@ -75,7 +53,6 @@ mkdir pretrained_models && cd pretrained_models
 ### Running PLOP
 The PLOP algorithm can be run for learning to recognize the following object properties: dirty, open, filled, toggled (for further details about the tasks, please see the [paper](https://arxiv.org/pdf/2301.06054.pdf)). 
 The learning task can be selected by setting the "TASK" flag in "Configuration.py".
-To run PLOP on a specific task w/o ground truth object detections, there are two options:
 
 e.g. to run PLOP on the task of learning to recognize the property 'dirty', set "TASK = TASK_LEARN_DIRTY" in "Configuration.py"
 
