@@ -135,4 +135,4 @@ dmypy.json
 Utils/pretrained_models/*
 Tensorboard
 Datasets/collected
-PAL/Plan/PDDL/Planners
+Results
