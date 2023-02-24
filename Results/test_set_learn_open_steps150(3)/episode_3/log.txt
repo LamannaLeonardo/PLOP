@@ -1,0 +1,190 @@
+
+Warning: field of view should be 90.0 according to episode data, while default field of view in Configuration.py is 79, I will use default value.
+############# START CONFIGURATION #############
+DATASET:test_set_learn_open
+EPISODE:3
+SCENE:FloorPlan29
+TASK:learn_open
+RANDOM SEED:1
+GOAL OBJECTS:['book', 'box', 'cabinet', 'drawer', 'fridge', 'kettle', 'laptop', 'microwave', 'safe', 'showercurtain', 'showerdoor', 'toilet']
+MAX ITER:150
+VISIBILITY DISTANCE:1.5
+MOVE STEP:0.25
+ROTATION DEGREES:30
+FIELD OF VIEW:79
+MAX DISTANCE MANIPULATION (belief):140
+OBJECTS COUNTER THRESHOLD:3
+IoU THRESHOLD:0.8
+OBJECTS SCORE THRESHOLD:0.5
+OBJECT DETECTOR GROUND TRUTH:False
+OBJECT DETECTOR:Utils/yolov5/yolov5m_pretrained_besthyp.pt
+###############################################
+
+1:MoveAhead from state 1 with 0 self-supervised examples
+2:MoveAhead from state 2 with 0 self-supervised examples
+3:MoveAhead from state 3 with 0 self-supervised examples
+4:MoveAhead from state 4 with 0 self-supervised examples
+5:MoveAhead from state 5 with 0 self-supervised examples
+6:MoveAhead from state 6 with 0 self-supervised examples
+7:MoveAhead from state 7 with 0 self-supervised examples
+8:MoveAhead from state 8 with 0 self-supervised examples
+9:MoveAhead from state 9 with 0 self-supervised examples
+10:MoveAhead from state 10 with 0 self-supervised examples
+11:MoveAhead from state 11 with 0 self-supervised examples
+Failed action message:Baseboard.004 is blocking Agent 0 from moving by (-0.2500, 0.0000, 0.0000).
+Collision detected
+12:RotateRight from state 12 with 0 self-supervised examples
+13:RotateRight from state 13 with 0 self-supervised examples
+14:RotateRight from state 14 with 0 self-supervised examples
+15:RotateRight from state 15 with 0 self-supervised examples
+16:RotateRight from state 16 with 0 self-supervised examples
+17:RotateRight from state 17 with 0 self-supervised examples
+18:MoveAhead from state 18 with 0 self-supervised examples
+19:MoveAhead from state 19 with 0 self-supervised examples
+20:MoveAhead from state 20 with 0 self-supervised examples
+21:MoveAhead from state 21 with 0 self-supervised examples
+22:MoveAhead from state 22 with 0 self-supervised examples
+23:MoveAhead from state 23 with 0 self-supervised examples
+24:MoveAhead from state 24 with 0 self-supervised examples
+25:MoveAhead from state 25 with 0 self-supervised examples
+26:RotateRight from state 26 with 0 self-supervised examples
+27:RotateRight from state 27 with 0 self-supervised examples
+28:RotateRight from state 28 with 0 self-supervised examples
+29:MoveAhead from state 29 with 0 self-supervised examples
+30:MoveAhead from state 30 with 0 self-supervised examples
+Failed action message:Baseboard.017 is blocking Agent 0 from moving by (0.0000, 0.0000, -0.2500).
+Collision detected
+31:RotateLeft from state 31 with 0 self-supervised examples
+32:RotateLeft from state 32 with 0 self-supervised examples
+33:RotateLeft from state 33 with 0 self-supervised examples
+34:MoveAhead from state 34 with 0 self-supervised examples
+35:RotateRight from state 35 with 0 self-supervised examples
+36:RotateRight from state 36 with 0 self-supervised examples
+37:RotateRight from state 37 with 0 self-supervised examples
+38:MoveAhead from state 38 with 0 self-supervised examples
+Failed action message:Baseboard.017 is blocking Agent 0 from moving by (0.0000, 0.0000, -0.2500).
+Collision detected
+39:RotateRight from state 39 with 0 self-supervised examples
+40:RotateRight from state 40 with 0 self-supervised examples
+41:RotateRight from state 41 with 0 self-supervised examples
+42:MoveAhead from state 42 with 0 self-supervised examples
+43:MoveAhead from state 43 with 0 self-supervised examples
+44:MoveAhead from state 44 with 0 self-supervised examples
+45:MoveAhead from state 45 with 0 self-supervised examples
+46:MoveAhead from state 46 with 0 self-supervised examples
+47:MoveAhead from state 47 with 0 self-supervised examples
+48:MoveAhead from state 48 with 0 self-supervised examples
+49:RotateRight from state 49 with 0 self-supervised examples
+50:RotateRight from state 50 with 0 self-supervised examples
+Changing event planner subgoal to: GET_CLOSE_AND_LOOK_AT_OPENABLE(CABINET_0)
+51:RotateRight from state 51 with 0 self-supervised examples
+52:RotateRight from state 52 with 0 self-supervised examples
+53:RotateRight from state 53 with 0 self-supervised examples
+54:RotateRight from state 54 with 0 self-supervised examples
+55:MoveAhead from state 55 with 0 self-supervised examples
+56:MoveAhead from state 56 with 0 self-supervised examples
+57:MoveAhead from state 57 with 0 self-supervised examples
+58:MoveAhead from state 58 with 0 self-supervised examples
+59:MoveAhead from state 59 with 0 self-supervised examples
+60:MoveAhead from state 60 with 0 self-supervised examples
+61:RotateLeft from state 61 with 0 self-supervised examples
+62:RotateLeft from state 62 with 0 self-supervised examples
+63:RotateLeft from state 63 with 0 self-supervised examples
+64:RotateLeft from state 64 with 0 self-supervised examples
+65:RotateLeft from state 65 with 0 self-supervised examples
+66:RotateLeft from state 66 with 0 self-supervised examples
+Successfully executed action: GET_CLOSE_AND_LOOK_AT_OPENABLE(CABINET_0)
+Changing event planner subgoal to: OPEN(CABINET_0)
+67:OpenObject|0.21|0.29 from state 67 with 0 self-supervised examples
+Successfully executed action: OPEN(CABINET_0)
+Changing event planner subgoal to: SCAN_OPENED(CABINET_0)
+68:MoveAhead from state 68 with 1 self-supervised examples
+69:MoveAhead from state 69 with 1 self-supervised examples
+70:MoveAhead from state 70 with 1 self-supervised examples
+71:RotateLeft from state 71 with 1 self-supervised examples
+72:RotateRight from state 72 with 1 self-supervised examples
+73:MoveAhead from state 73 with 1 self-supervised examples
+74:RotateLeft from state 74 with 1 self-supervised examples
+75:RotateRight from state 75 with 1 self-supervised examples
+76:MoveAhead from state 76 with 1 self-supervised examples
+77:RotateLeft from state 77 with 1 self-supervised examples
+78:RotateLeft from state 78 with 1 self-supervised examples
+79:RotateRight from state 79 with 1 self-supervised examples
+80:RotateRight from state 80 with 1 self-supervised examples
+81:MoveAhead from state 81 with 1 self-supervised examples
+Failed action message:Cabinet_2cf3a97b is blocking Agent 0 from moving by (-0.2500, 0.0000, 0.0000).
+Collision detected
+82:RotateRight from state 82 with 1 self-supervised examples
+83:RotateRight from state 83 with 1 self-supervised examples
+84:RotateRight from state 84 with 1 self-supervised examples
+85:MoveAhead from state 85 with 1 self-supervised examples
+86:RotateLeft from state 86 with 1 self-supervised examples
+87:RotateLeft from state 87 with 1 self-supervised examples
+88:RotateLeft from state 88 with 1 self-supervised examples
+89:RotateLeft from state 89 with 1 self-supervised examples
+90:RotateLeft from state 90 with 1 self-supervised examples
+91:RotateLeft from state 91 with 1 self-supervised examples
+92:RotateLeft from state 92 with 1 self-supervised examples
+93:RotateLeft from state 93 with 1 self-supervised examples
+94:RotateLeft from state 94 with 1 self-supervised examples
+95:MoveAhead from state 95 with 1 self-supervised examples
+96:RotateRight from state 96 with 1 self-supervised examples
+97:RotateRight from state 97 with 1 self-supervised examples
+98:RotateRight from state 98 with 1 self-supervised examples
+99:RotateLeft from state 99 with 1 self-supervised examples
+100:RotateLeft from state 100 with 1 self-supervised examples
+101:RotateLeft from state 101 with 1 self-supervised examples
+102:MoveAhead from state 102 with 1 self-supervised examples
+103:RotateRight from state 103 with 1 self-supervised examples
+104:RotateRight from state 104 with 1 self-supervised examples
+105:RotateRight from state 105 with 1 self-supervised examples
+106:RotateLeft from state 106 with 1 self-supervised examples
+107:RotateLeft from state 107 with 1 self-supervised examples
+108:RotateLeft from state 108 with 1 self-supervised examples
+109:MoveAhead from state 109 with 1 self-supervised examples
+110:RotateRight from state 110 with 1 self-supervised examples
+111:RotateRight from state 111 with 1 self-supervised examples
+112:RotateRight from state 112 with 1 self-supervised examples
+113:RotateRight from state 113 with 1 self-supervised examples
+114:RotateLeft from state 114 with 2 self-supervised examples
+115:RotateLeft from state 115 with 2 self-supervised examples
+116:RotateLeft from state 116 with 2 self-supervised examples
+117:RotateLeft from state 117 with 2 self-supervised examples
+118:MoveAhead from state 118 with 2 self-supervised examples
+119:RotateRight from state 119 with 2 self-supervised examples
+120:RotateRight from state 120 with 2 self-supervised examples
+121:RotateRight from state 121 with 2 self-supervised examples
+122:RotateRight from state 122 with 2 self-supervised examples
+123:RotateLeft from state 123 with 3 self-supervised examples
+124:RotateLeft from state 124 with 3 self-supervised examples
+125:RotateLeft from state 125 with 3 self-supervised examples
+126:RotateLeft from state 126 with 3 self-supervised examples
+127:MoveAhead from state 127 with 3 self-supervised examples
+128:RotateRight from state 128 with 3 self-supervised examples
+129:RotateRight from state 129 with 3 self-supervised examples
+130:RotateRight from state 130 with 3 self-supervised examples
+131:RotateRight from state 131 with 3 self-supervised examples
+132:RotateRight from state 132 with 3 self-supervised examples
+133:RotateRight from state 133 with 4 self-supervised examples
+134:RotateRight from state 134 with 4 self-supervised examples
+135:RotateRight from state 135 with 4 self-supervised examples
+136:RotateRight from state 136 with 4 self-supervised examples
+137:MoveAhead from state 137 with 4 self-supervised examples
+138:RotateLeft from state 138 with 4 self-supervised examples
+139:RotateLeft from state 139 with 4 self-supervised examples
+140:RotateLeft from state 140 with 4 self-supervised examples
+141:RotateLeft from state 141 with 4 self-supervised examples
+142:RotateRight from state 142 with 5 self-supervised examples
+143:MoveAhead from state 143 with 5 self-supervised examples
+144:RotateLeft from state 144 with 5 self-supervised examples
+145:RotateRight from state 145 with 6 self-supervised examples
+146:MoveAhead from state 146 with 6 self-supervised examples
+Successfully executed action: SCAN_OPENED(CABINET_0)
+Changing event planner subgoal to: GET_CLOSE_AND_LOOK_AT_OPENABLE(BOOK_0)
+147:RotateRight from state 147 with 6 self-supervised examples
+148:RotateRight from state 148 with 6 self-supervised examples
+149:RotateRight from state 149 with 6 self-supervised examples
+150:Stop from state 150 with 6 self-supervised examples
+Episode computational time: 63 seconds
+Positive examples: {'cabinet': 6}
+Negative examples: {}

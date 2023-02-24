@@ -1,0 +1,87 @@
+(define (problem ithor-appleinbox)
+(:domain ithor)
+(:objects
+microwave_0 - microwave
+cabinet_0 - cabinet
+cabinet_1 - cabinet
+cabinet_2 - cabinet
+cabinet_3 - cabinet
+cabinet_4 - cabinet
+cabinet_5 - cabinet
+cabinet_6 - cabinet
+cabinet_7 - cabinet
+cabinet_9 - cabinet
+cabinet_10 - cabinet
+cabinet_12 - cabinet
+fridge_0 - fridge
+)
+(:init
+(close_to cabinet_10)
+(close_to cabinet_10)
+(close_to cabinet_12)
+(close_to cabinet_12)
+(close_to cabinet_2)
+(close_to cabinet_2)
+(close_to cabinet_4)
+(close_to cabinet_4)
+(close_to cabinet_5)
+(close_to cabinet_5)
+(close_to fridge_0)
+(close_to fridge_0)
+(discovered cabinet_0)
+(discovered cabinet_1)
+(discovered cabinet_10)
+(discovered cabinet_12)
+(discovered cabinet_2)
+(discovered cabinet_3)
+(discovered cabinet_4)
+(discovered cabinet_5)
+(discovered cabinet_6)
+(discovered cabinet_7)
+(discovered cabinet_9)
+(discovered fridge_0)
+(discovered microwave_0)
+(explored )
+(hand_free )
+(inspected cabinet_10)
+(inspected cabinet_12)
+(inspected cabinet_2)
+(inspected cabinet_4)
+(inspected cabinet_5)
+(inspected fridge_0)
+(manipulated cabinet_4)
+(manipulated cabinet_5)
+(open cabinet_4)
+(open cabinet_5)
+(openable cabinet_0)
+(openable cabinet_1)
+(openable cabinet_10)
+(openable cabinet_12)
+(openable cabinet_2)
+(openable cabinet_3)
+(openable cabinet_4)
+(openable cabinet_5)
+(openable cabinet_6)
+(openable cabinet_7)
+(openable cabinet_9)
+(openable fridge_0)
+(openable microwave_0)
+(receptacle cabinet_0)
+(receptacle cabinet_1)
+(receptacle cabinet_10)
+(receptacle cabinet_12)
+(receptacle cabinet_2)
+(receptacle cabinet_3)
+(receptacle cabinet_4)
+(receptacle cabinet_5)
+(receptacle cabinet_6)
+(receptacle cabinet_7)
+(receptacle cabinet_9)
+(receptacle fridge_0)
+(receptacle microwave_0)
+(scanned cabinet_5)
+(toggleable microwave_0)
+)
+(:goal
+(and (or (and (supervised_opened_book ) (supervised_notopened_book )) (forall (?o1 - book) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))) (or (and (supervised_opened_box ) (supervised_notopened_box )) (forall (?o1 - box) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))) (or (and (supervised_opened_cabinet ) (supervised_notopened_cabinet )) (forall (?o1 - cabinet) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))) (or (and (supervised_opened_drawer ) (supervised_notopened_drawer )) (forall (?o1 - drawer) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))) (or (and (supervised_opened_fridge ) (supervised_notopened_fridge )) (forall (?o1 - fridge) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))) (or (and (supervised_opened_kettle ) (supervised_notopened_kettle )) (forall (?o1 - kettle) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))) (or (and (supervised_opened_laptop ) (supervised_notopened_laptop )) (forall (?o1 - laptop) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))) (or (and (supervised_opened_microwave ) (supervised_notopened_microwave )) (forall (?o1 - microwave) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))) (or (and (supervised_opened_safe ) (supervised_notopened_safe )) (forall (?o1 - safe) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))) (or (and (supervised_opened_showercurtain ) (supervised_notopened_showercurtain )) (forall (?o1 - showercurtain) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))) (or (and (supervised_opened_showerdoor ) (supervised_notopened_showerdoor )) (forall (?o1 - showerdoor) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))) (or (and (supervised_opened_toilet ) (supervised_notopened_toilet )) (forall (?o1 - toilet) (and (open ?o1) (manipulated ?o1) (scanned ?o1)))))
+))

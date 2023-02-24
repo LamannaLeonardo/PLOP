@@ -1,0 +1,402 @@
+[
+    {
+        "episode": 0,
+        "scene": "FloorPlan26",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -1.0,
+            "y": 0.9015909433364868,
+            "z": 1.5
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 90.0,
+            "z": 0.0
+        },
+        "initial_orientation": 90.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 1,
+        "scene": "FloorPlan27",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": 1.0,
+            "y": 0.9010001420974731,
+            "z": 1.0
+        },
+        "agent_rotation": {
+            "x": 0.0,
+            "y": 270.0,
+            "z": 0.0
+        },
+        "initial_orientation": 270.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 2,
+        "scene": "FloorPlan28",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -1.5,
+            "y": 0.9009982347488403,
+            "z": -1.5
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 180.0,
+            "z": 0.0
+        },
+        "initial_orientation": 180.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 3,
+        "scene": "FloorPlan29",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": 1.25,
+            "y": 0.9317981004714966,
+            "z": -0.5
+        },
+        "agent_rotation": {
+            "x": 0.0,
+            "y": 270.0,
+            "z": 0.0
+        },
+        "initial_orientation": 270.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 4,
+        "scene": "FloorPlan30",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": 0.25,
+            "y": 0.9277887344360352,
+            "z": -0.5
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 90.0,
+            "z": 0.0
+        },
+        "initial_orientation": 90.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 5,
+        "scene": "FloorPlan226",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -0.75,
+            "y": 0.9009991884231567,
+            "z": 0.5
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 90.0,
+            "z": 0.0
+        },
+        "initial_orientation": 90.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 6,
+        "scene": "FloorPlan227",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -1.5,
+            "y": 0.9270526170730591,
+            "z": 4.5
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 180.0,
+            "z": 0.0
+        },
+        "initial_orientation": 180.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 7,
+        "scene": "FloorPlan228",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -2.5,
+            "y": 0.8938637971878052,
+            "z": 3.0
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 180.0,
+            "z": 0.0
+        },
+        "initial_orientation": 180.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 8,
+        "scene": "FloorPlan229",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -1.0,
+            "y": 0.9220515489578247,
+            "z": 2.0
+        },
+        "agent_rotation": {
+            "x": 0.0,
+            "y": 270.0,
+            "z": 0.0
+        },
+        "initial_orientation": 270.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 9,
+        "scene": "FloorPlan230",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -4.5,
+            "y": 0.9082556962966919,
+            "z": 3.75
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 90.0,
+            "z": 0.0
+        },
+        "initial_orientation": 90.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 10,
+        "scene": "FloorPlan326",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": 0.25,
+            "y": 0.8994580507278442,
+            "z": 0.0
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 90.0,
+            "z": 0.0
+        },
+        "initial_orientation": 90.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 11,
+        "scene": "FloorPlan327",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": 0.0,
+            "y": 0.9009992480278015,
+            "z": 0.0
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "initial_orientation": 0.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 12,
+        "scene": "FloorPlan328",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": 1.25,
+            "y": 0.9009991884231567,
+            "z": 0.25
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 90.0,
+            "z": 0.0
+        },
+        "initial_orientation": 90.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 13,
+        "scene": "FloorPlan329",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": 1.0,
+            "y": 0.9009991884231567,
+            "z": 0.0
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "initial_orientation": 0.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 14,
+        "scene": "FloorPlan330",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": 0.0,
+            "y": 0.9009991884231567,
+            "z": 1.25
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 180.0,
+            "z": 0.0
+        },
+        "initial_orientation": 180.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 15,
+        "scene": "FloorPlan426",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -2.0,
+            "y": 0.9018632173538208,
+            "z": 1.0
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 90.0,
+            "z": 0.0
+        },
+        "initial_orientation": 90.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 16,
+        "scene": "FloorPlan427",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -1.5,
+            "y": 0.9020416140556335,
+            "z": 1.0
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 90.0,
+            "z": 0.0
+        },
+        "initial_orientation": 90.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 17,
+        "scene": "FloorPlan428",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -0.5,
+            "y": 0.9014922380447388,
+            "z": 1.75
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 90.0,
+            "z": 0.0
+        },
+        "initial_orientation": 90.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 18,
+        "scene": "FloorPlan429",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -0.75,
+            "y": 0.9004193544387817,
+            "z": -1.25
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 90.0,
+            "z": 0.0
+        },
+        "initial_orientation": 90.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    },
+    {
+        "episode": 19,
+        "scene": "FloorPlan430",
+        "goal": "(and (or (and (supervised_toggled_desklamp) (supervised_nottoggled_desklamp) ) (forall (?o1 - desklamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_candle) (supervised_nottoggled_candle) ) (forall (?o1 - candle) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_cellphone) (supervised_nottoggled_cellphone) ) (forall (?o1 - cellphone) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_faucet) (supervised_nottoggled_faucet) ) (forall (?o1 - faucet) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_laptop) (supervised_nottoggled_laptop) ) (forall (?o1 - laptop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_showerhead) (supervised_nottoggled_showerhead) ) (forall (?o1 - showerhead) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_coffeemachine) (supervised_nottoggled_coffeemachine) ) (forall (?o1 - coffeemachine) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_floorlamp) (supervised_nottoggled_floorlamp) ) (forall (?o1 - floorlamp) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_desktop) (supervised_nottoggled_desktop) ) (forall (?o1 - desktop) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_microwave) (supervised_nottoggled_microwave) ) (forall (?o1 - microwave) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_toaster) (supervised_nottoggled_toaster) ) (forall (?o1 - toaster) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ) (or (and (supervised_toggled_television) (supervised_nottoggled_television) ) (forall (?o1 - television) (and (toggled ?o1) (manipulated ?o1) (scanned ?o1)) ) ))",
+        "agent_position": {
+            "x": -0.75,
+            "y": 0.9130393266677856,
+            "z": 0.5
+        },
+        "agent_rotation": {
+            "x": -0.0,
+            "y": 90.0,
+            "z": 0.0
+        },
+        "initial_orientation": 90.0,
+        "initial_horizon": -0.0,
+        "agent_is_standing": true,
+        "agent_in_high_friction_area": false,
+        "agent_fov": 90.0
+    }
+]
