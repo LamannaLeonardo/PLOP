@@ -37,24 +37,19 @@ conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 -c pytorch
 pip install matplotlib scipy ipython pandas tqdm seaborn urllib3 requests
 ```
 
-8. Create the "pretrained_models" subdirectory into the "Utils" directory
-```
-mkdir pretrained_models && cd pretrained_models
-```
-
-9. Download the pretrained YoloV5 model available at this [link](https://drive.google.com/file/d/1eOJ3X6GG2_LAuzYgsHLUrVIvwclrDDta/view?usp=share_link), and move it into the directory "Utils/pretrained_models"
+7. Download the pretrained YoloV5 model available at this [link](https://drive.google.com/file/d/1eOJ3X6GG2_LAuzYgsHLUrVIvwclrDDta/view?usp=share_link), and move it into the directory "Utils/pretrained_models"
 
 
-10. Check everything is correctly installed by running the "main.py" in the "PLOP" directory
+8. Check everything is correctly installed by running the "main.py" in the "PLOP" directory
 
 
 ## Execution
 
 ### Running PLOP
-The PLOP algorithm can be run for learning to recognize the following object properties: dirty, open, filled, toggled (for further details about the tasks, please see the [paper](https://arxiv.org/pdf/2301.06054.pdf)). 
-The learning task can be selected by setting the "TASK" flag in "Configuration.py".
+The PLOP algorithm can be run for learning to recognize the following object properties: dirty, open, filled, toggled (for further details about the learning tasks, please see the [paper](https://arxiv.org/pdf/2301.06054.pdf)). 
+The learning task can be changed by setting the "TASK" flag in "Configuration.py".
 
-e.g. to run PLOP on the task of learning to recognize the property 'dirty', set "TASK = TASK_LEARN_DIRTY" in "Configuration.py"
+e.g. to run PLOP on the task of learning to recognize the property "dirty", set `TASK = TASK_LEARN_DIRTY` in "Configuration.py"
 
 
 ## Log and results
@@ -62,16 +57,24 @@ When you execute PLOP, a new directory with all logs and results is created in t
 
 
 ## Notes
-1. The training sets collected online for each property and used for evaluation in the [paper](https://arxiv.org/pdf/2301.06054.pdf) can be downloaded at this [link](https://drive.google.com/file/d/1qJE1Xx2c_1a0tsDJfSiTkbgiTgP8lyPZ/view?usp=share_link)
+1. The training sets collected online for each property and used for evaluation in the [AAAI 2023 paper](https://arxiv.org/pdf/2301.06054.pdf) can be downloaded at this [link](https://drive.google.com/file/d/1qJE1Xx2c_1a0tsDJfSiTkbgiTgP8lyPZ/view?usp=share_link)
 
 
 ## Citations
+If you find this work useful, please consider citing the following papers.
 ```
 @inproceedings{Lamanna_AAAI_2023,
   title={Planning for Learning Object Properties},
   author={Lamanna, Leonardo and Serafini, Luciano and Mohamadreza, Faridghasmenia, and Saffiotti, Alessandro and Saetti, Alessandro and Gerevini, Alfonso Emilio and Traverso, Paolo},
   booktitle={Proceedings of the 37th AAAI Conference on Artificial Intelligence},
   year={2023}
+}
+
+@inproceedings{lamannaonline,
+  title={Online Grounding of Symbolic Planning Domains in Unknown Environments},
+  author={Lamanna, Leonardo and Serafini, Luciano and Saetti, Alessandro and Gerevini, Alfonso and Traverso, Paolo},
+  booktitle={19th International Conference on Principles of Knowledge Representation and Reasoning},
+  year={2022}
 }
 ```
 
