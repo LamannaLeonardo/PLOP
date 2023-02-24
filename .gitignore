@@ -131,7 +131,13 @@ dmypy.json
 # Pycharm directory
 .idea/
 
-# Pretrained neural network models
+# Yolo git files
+Utils/yolov5/.dockerignore
+Utils/yolov5/.gitattributes
+Utils/yolov5/.github/
+Utils/yolov5/.gitignore
+
+# Pretrained neural network model   
 Utils/pretrained_models/*
 Tensorboard
 Datasets/collected
