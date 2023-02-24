@@ -22,40 +22,49 @@ The following instructions have been tested on Ubuntu 20.04.
  conda activate plop
 ```
 
-4. Install pip in the conda environment
-```
- conda install pip
-```
+4. Install [PyTorch](https://pytorch.org/get-started/locally/) (tested with version 1.10.0)
 
-5. Install [PyTorch](https://pytorch.org/get-started/locally/) (tested with version 1.10.0)
-
-6. Install [AI2THOR](https://ai2thor.allenai.org/ithor/documentation) (tested with version 4.0.0) 
+5. Install [AI2THOR](https://ai2thor.allenai.org/ithor/documentation) (tested with version 4.0.0) 
 ```
   pip install ai2thor
 ```
 
-7. Install the following dependencies
+6. Install the following dependencies
 ```
-pip install matplotlib
+pip install matplotlib scipy ipython pandas tqdm seaborn
 ```
 
-8. Clone the yolov5 repository into the 'Utils' folder
+7. Clone the yolov5 repository into the 'Utils' folder
 ```
 cd PLOP/Utils && git clone https://github.com/ultralytics/yolov5.git 
 ```
 
-9. Download the pretrained neural network models available at this [link](https://drive.google.com/file/d/1eOJ3X6GG2_LAuzYgsHLUrVIvwclrDDta/view?usp=share_link), and move all the downloaded files into the directory "Utils/pretrained_models"
+8. Create the "pretrained_models" subdirectory into the "Utils" directory
 ```
-mkdir pretrained_models && cd pretrained_models && wget https://drive.google.com/file/d/1eOJ3X6GG2_LAuzYgsHLUrVIvwclrDDta/view?usp=share_link
+mkdir pretrained_models && cd pretrained_models
 ```
 
-10. Download the [FastForward](https://fai.cs.uni-saarland.de/hoffmann/ff.html) planner in the directory "PLOP/PAL/Plan/PDDL/Planners/FF". From the [offical FastForward site](https://fai.cs.uni-saarland.de/hoffmann/ff.html), download FF-v2.3.tgz (you can directly download it from this [link](https://fai.cs.uni-saarland.de/hoffmann/ff/FF-v2.3.tgz)), move it into the "PLOP/PAL/Plan/PDDL/Planners/FF" directory, extract the archive ```tar -xf FF-v2.3.tgz```, go into the installation directory with ```cd FF-v2.3``` and compile FastForward with ```make```. Finally move the "ff" executable in the parent directory through the command ```mv ff ../```, go to the parent directory ```cd ../``` and delete unnecessary files with ```rm -r FF-v2.3``` and ```rm FF-v2.3.tgz```.
+9. Download the pretrained YoloV5 model available at this [link](https://drive.google.com/file/d/1eOJ3X6GG2_LAuzYgsHLUrVIvwclrDDta/view?usp=share_link), and move it into the directory "Utils/pretrained_models"
 
 
-9. Check everything is correctly installed by executing the command
-```
-  python main.py
-```
+10. Download the [FastForward](https://fai.cs.uni-saarland.de/hoffmann/ff.html) planner in the directory "PLOP/PAL/Plan/PDDL/Planners/FF". 
+
+ Create the directory "PLOP/PAL/Plan/PDDL/Planners/FF"
+ ```
+ cd ../../PAL/Plan/PDDL && mkdir -p Planners/FF && cd Planners/FF
+ ```
+
+ From the [offical FastForward site](https://fai.cs.uni-saarland.de/hoffmann/ff.html), download FF-v2.3.tgz (you can directly download it from this [link](https://fai.cs.uni-saarland.de/hoffmann/ff/FF-v2.3.tgz)) into the "PLOP/PAL/Plan/PDDL/Planners/FF" directory, 
+ ```
+ wget https://fai.cs.uni-saarland.de/hoffmann/ff/FF-v2.3.tgz
+ ```
+
+ Extract the archive ```tar -xf FF-v2.3.tgz```, go into the installation directory with ```cd FF-v2.3``` and compile FastForward with ```make```. 
+ 
+ Finally move the "ff" executable in the parent directory through the command ```mv ff ../```, go to the parent directory ```cd ../``` and delete unnecessary files with ```rm -r FF-v2.3 & rm FF-v2.3.tgz```.
+
+
+10. Check everything is correctly installed by running the "main.py" in the "PLOP" directory
 
 
 ## Execution
