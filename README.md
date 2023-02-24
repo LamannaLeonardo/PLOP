@@ -23,15 +23,18 @@ The following instructions have been tested on Ubuntu 20.04.
 ```
 
 4. Install [PyTorch](https://pytorch.org/get-started/locally/) (tested with version 1.10.0)
+```
+conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 -c pytorch
+```
 
 5. Install [AI2THOR](https://ai2thor.allenai.org/ithor/documentation) (tested with version 4.0.0) 
 ```
-  pip install ai2thor
+  pip install ai2thor==4.0.0
 ```
 
 6. Install the following dependencies
 ```
-pip install matplotlib scipy ipython pandas tqdm seaborn
+pip install matplotlib scipy ipython pandas tqdm seaborn urllib3 requests
 ```
 
 7. Clone the yolov5 repository into the 'Utils' folder
